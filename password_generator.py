@@ -88,10 +88,6 @@ def generate():
 
 	password.set(generatedPassword)
 
-# Function makes sure that if special characters box is checked there will be at least 1 special character
-def checkForSpecials():
-	pass
-
 # Copying the password to clipboard
 def copy():
 	pyperclip.copy(password.get())
